@@ -1,0 +1,121 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Rádio Atalaia</title>
+
+  <!-- FAVICON -->
+  <link rel="icon"
+  type="image/png"
+  href="assets/logo.png?v=2">
+
+  <!-- ÍCONE IOS / ANDROID -->
+  <link rel="apple-touch-icon"
+  href="assets/logo.png">
+
+  <!-- PWA -->
+  <link rel="manifest"
+  href="manifest.json">
+
+  <!-- COR DO TEMA -->
+  <meta name="theme-color"
+  content="#0b1320">
+
+  <!-- CSS -->
+  <link rel="stylesheet"
+  href="css/style.css">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- TOPO -->
+    <header>
+
+      <img
+      src="assets/logo.png"
+      class="logo"
+      alt="Rádio Atalaia">
+
+      <h1>Rádio Atalaia</h1>
+
+      <p class="subtitle">
+        A Voz que Ecoa Esperança
+      </p>
+
+      <div class="radio-icon">
+        <i class="fa-solid fa-radio"></i>
+      </div>
+
+    </header>
+
+    <!-- PLAYER -->
+    <section class="player">
+
+      <div class="now-playing">
+
+        <span>Tocando Agora:</span>
+
+        <h2 id="musicName">
+          Carregando...
+        </h2>
+
+      </div>
+
+      <audio id="audio"></audio>
+
+      <!-- CONTROLES -->
+      <div class="controls">
+
+        <button id="prevBtn">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+
+        <button id="playBtn">
+          <i class="fa-solid fa-play"></i>
+        </button>
+
+        <button id="pauseBtn">
+          <i class="fa-solid fa-pause"></i>
+        </button>
+
+        <button id="nextBtn">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+
+      </div>
+
+      <!-- BARRA -->
+      <div class="progress-area">
+
+        <input
+        type="range"
+        id="progress"
+        value="0"
+        min="0"
+        max="100">
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
