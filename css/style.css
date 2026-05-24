@@ -199,3 +199,21 @@ h1{
 
   transform:scale(1.05);
 }
+
+
+/* ÁREA SHARE */
+.share-area{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* BOTÃO SHARE */
+.share-btn{
+  background: #1e88e5;
+  color: #fff;
+}
+
+.share-btn:hover{
+  transform: scale(1.05);
+}

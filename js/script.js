@@ -16,18 +16,64 @@ const progress = document.getElementById("progress");
 const tracks = [
 
   {
-    title:"Faixa 1",
-    src:"audio/faixa1.mp3"
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia Abertura.m4a"
+  },
+  {
+    title:"Locução",
+    src:"audio/locução de entrada.ogg"
+  },
+  
+  {
+    title:"I See the Lord (Live) - Ron Kenoly - Integrity Music",
+    src:"audio/Música - Ron Kenoly - I See the Lord (Live) - Integrity Music (youtube).mp3"
   },
 
   {
-    title:"Faixa 2",
-    src:"audio/faixa2.mp3"
+    title:"Rádio Atalaia Spot",
+    src:"audio/Rádio Atalaia Spot.m4a"
   },
 
   {
-    title:"Faixa 3",
-    src:"audio/faixa3.mp3"
+    title:"Pão da Vida",
+    src:"audio/Pão da Vida Rachel Mt 6 33.m4a"
+  },
+    {
+    title:"Locução",
+    src:"audio/Locução Be Thou My Vision.ogg"
+  },
+
+  {
+    title:"Be Thou My Vision",
+    src:"audio/Música - BE THOU MY VISION -- My Favorite Irish Hymn! ) - NathanPachecoMusic (youtube).mp3"
+  },
+
+  {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia.mpeg.mp3"
+  },
+
+  {
+    title:"Deus é Amor",
+    src:"audio/Sarah Deus é Amor.m4a"
+  },
+    {
+    title:"Locução",
+    src:"audio/Locução Diga Não a Toda Tentação.ogg"
+  },
+
+  {
+    title:"Mensagem: Diga Não a Toda Tentação - Evangelista Billy Graham",
+    src:"audio/Mensagem - Billy Graham.mp3"
+  },
+    {
+    title:"Locução",
+    src:"audio/Locução Lamb Of God.ogg"
+  },
+
+  {
+    title:"Lamb Of God - Maranatha! Music",
+    src:"audio/Música - Lamb Of God - Maranatha! Music (youtube).mp3"
   }
 
 ];
@@ -232,4 +278,53 @@ if("serviceWorker" in navigator){
       "service-worker.js"
     );
   });
+}
+
+// BOTÃO COMPARTILHAR
+const shareBtn = document.getElementById("shareBtn");
+
+if (shareBtn) {
+
+  shareBtn.addEventListener("click", async () => {
+
+    const shareData = {
+      title: "Rádio Atalaia",
+      text: "Ouça agora a Rádio Atalaia - A Voz que Ecoa Esperança",
+      url: window.location.href
+    };
+
+    // NAVEGADOR SUPORTA SHARE
+    if (navigator.share) {
+
+      try {
+
+        await navigator.share(shareData);
+
+        console.log("Compartilhado com sucesso");
+
+      } catch (error) {
+
+        console.log("Compartilhamento cancelado");
+
+      }
+
+    } else {
+
+      // FALLBACK
+      try {
+
+        await navigator.clipboard.writeText(window.location.href);
+
+        alert("Link copiado para compartilhar!");
+
+      } catch {
+
+        alert("Seu navegador não suporta compartilhamento.");
+
+      }
+
+    }
+
+  });
+
 }
