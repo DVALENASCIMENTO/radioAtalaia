@@ -217,3 +217,18 @@ h1{
 .share-btn:hover{
   transform: scale(1.05);
 }
+
+
+.study-area{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.study-btn{
+  flex: 1;
+  min-width: 140px;
+  text-align: center;
+}
