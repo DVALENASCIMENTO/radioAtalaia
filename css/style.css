@@ -62,7 +62,29 @@ h1{
 .radio-icon{
   margin-top:20px;
   font-size:3rem;
-  color:#d4af37;
+  color:#ff2b2b;
+  transition:.3s;
+}
+
+.radio-icon.playing{
+  color:#00ff66;
+  text-shadow:
+      0 0 10px #00ff66,
+      0 0 20px #00ff66,
+      0 0 35px #00ff66;
+  animation:pulse 1s infinite;
+}
+
+@keyframes pulse{
+  0%{
+    transform:scale(1);
+  }
+  50%{
+    transform:scale(1.15);
+  }
+  100%{
+    transform:scale(1);
+  }
 }
 
 .player{

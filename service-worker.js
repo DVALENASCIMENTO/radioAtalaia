@@ -4,11 +4,14 @@ const CACHE_NAME = "radio-atalaia-v1";
 
 const urlsToCache = [
 
-  "/",
-  "/index.html",
-  "/css/style.css",
-  "/js/script.js",
-  "/manifest.json"
+  "./",
+  "./index.html",
+  "./css/style.css",
+  "./js/script.js",
+  "./manifest.json",
+  "./assets/logo.png",
+  "./assets/icon-192.png",
+  "./assets/icon-512.png"
 
 ];
 

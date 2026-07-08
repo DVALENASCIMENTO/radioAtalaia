@@ -2,6 +2,9 @@
 
 const audio = document.getElementById("audio");
 
+const radioIcon =
+document.querySelector(".radio-icon");
+
 audio.addEventListener("error", () => {
   console.error("Erro ao carregar áudio:", audio.src);
 });
@@ -264,28 +267,30 @@ let db;
 const request = indexedDB.open("radioAtalaiaDB",1);
 
 request.onupgradeneeded = function(e){
-
   db = e.target.result;
-
   db.createObjectStore("playerState",{keyPath:"id"});
 };
 
 request.onsuccess = function(e){
-
   db = e.target.result;
-
   loadSavedState();
 };
 
 
 // CARREGAR FAIXA
 function loadTrack(index){
+audio.src = tracks[index].src;
+musicName.innerText = tracks[index].title;
+atualizarRadio();
+localStorage.setItem("trackIndex",index);
+}
 
-  audio.src = tracks[index].src;
-
-  musicName.innerText = tracks[index].title;
-
-  localStorage.setItem("trackIndex",index);
+function atualizarRadio(){
+  if(audio.paused){
+    radioIcon.classList.remove("playing");
+  }else{
+    radioIcon.classList.add("playing");
+  }
 }
 
 
@@ -295,6 +300,8 @@ playBtn.addEventListener("click",()=>{
   audio.play();
 });
 
+audio.addEventListener("play", atualizarRadio);
+
 
 // PAUSE
 pauseBtn.addEventListener("click",()=>{
@@ -302,12 +309,15 @@ pauseBtn.addEventListener("click",()=>{
   audio.pause();
 });
 
+audio.addEventListener("pause", atualizarRadio);
 
 // PRÓXIMA
 nextBtn.addEventListener("click",()=>{
 
   nextTrack();
 });
+
+audio.addEventListener("ended", atualizarRadio);
 
 
 // ANTERIOR
