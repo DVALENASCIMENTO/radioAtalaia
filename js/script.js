@@ -250,6 +250,37 @@ const tracks = [
     title:"I See The Lord",
     src:"audio/I See The Lord.mp3"
   },
+    {
+    title:"Rádio Atalaia Spot",
+    src:"audio/Rádio Atalaia Spot.m4a"
+  },
+        {
+    title:"Mensagem: Filhos de Deus - Evangelista Diego Nascimento",
+    src:"audio/Joao 1 12.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia.mpeg"
+  },
+          {
+    title:"Mensagem: Mais que Vencedores - Evangelista Diego Nascimento",
+    src:"audio/Romanos 8 37.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia Abertura.m4a"
+  },
+
+            {
+    title:"Mensagem: Permanecei na Minha Palavra - Evangelista Diego Nascimento",
+    src:"audio/Joao 8 31 32.mp3"
+  },
+
+
+
+
 
 
 
