@@ -255,8 +255,8 @@ const tracks = [
     src:"audio/Rádio Atalaia Spot.m4a"
   },
         {
-    title:"Mensagem: Filhos de Deus - Evangelista Diego Nascimento",
-    src:"audio/Joao 1 12.mp3"
+    title:"Mensagem: A Purificação do Leproso - Evangelista Diego Nascimento",
+    src:"audio/A Purificação do Leproso - 18min.mp3"
   },
 
       {
@@ -264,8 +264,8 @@ const tracks = [
     src:"audio/Rádio Atalaia.mpeg"
   },
           {
-    title:"Mensagem: Mais que Vencedores - Evangelista Diego Nascimento",
-    src:"audio/Romanos 8 37.mp3"
+    title:"Mensagem: Arrepende-te dos Teus Pecados - Evangelista Diego Nascimento",
+    src:"audio/Arrepende-te dos Teus Pecados 15min.mp3"
   },
 
       {
@@ -274,8 +274,37 @@ const tracks = [
   },
 
             {
-    title:"Mensagem: Permanecei na Minha Palavra - Evangelista Diego Nascimento",
-    src:"audio/Joao 8 31 32.mp3"
+    title:"Mensagem: JESUS ou Barrabás - Evangelista Diego Nascimento",
+    src:"audio/JESUS ou Barrabás.mp3"
+  },
+
+
+      {
+    title:"Rádio Atalaia Spot",
+    src:"audio/Rádio Atalaia Spot.m4a"
+  },
+        {
+    title:"Mensagem: Arrependa-se - Evangelista Diego Nascimento",
+    src:"audio/MRD - Arrependa-se.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia.mpeg"
+  },
+          {
+    title:"Mensagem: Arrependei-vos - Evangelista Diego Nascimento",
+    src:"audio/MRD - Arrependei-vos.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia Abertura.m4a"
+  },
+
+            {
+    title:"Mensagem: O Chamado de Deus - Evangelista Diego Nascimento",
+    src:"audio/MRD - O Chamado de Deus.mp3"
   },
 
 
