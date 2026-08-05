@@ -254,3 +254,92 @@ h1{
   min-width: 140px;
   text-align: center;
 }
+
+
+/* ===========================
+   PROJETOS
+=========================== */
+
+.study-area{
+
+    margin-top:25px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+}
+
+.study-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    text-decoration:none;
+
+    background:#18263b;
+
+    border:2px solid #d4af37;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+}
+
+.study-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 20px rgba(212,175,55,.35);
+
+}
+
+.study-card img{
+
+    width:100%;
+
+    height:120px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.study-card span{
+
+    padding:12px 8px;
+
+    text-align:center;
+
+    color:#fff;
+
+    font-size:.9rem;
+
+    font-weight:bold;
+
+    background:#101b2b;
+
+}
+
+.study-card:hover span{
+
+    color:#d4af37;
+
+}
+
+@media(max-width:480px){
+
+    .study-area{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
