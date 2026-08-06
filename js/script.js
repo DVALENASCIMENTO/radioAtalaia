@@ -279,6 +279,7 @@ const tracks = [
   },
 
 
+  
       {
     title:"Rádio Atalaia Spot",
     src:"audio/Rádio Atalaia Spot.m4a"
@@ -305,6 +306,37 @@ const tracks = [
             {
     title:"Mensagem: O Chamado de Deus - Evangelista Diego Nascimento",
     src:"audio/MRD - O Chamado de Deus.mp3"
+  },
+
+
+
+
+      {
+    title:"Rádio Atalaia Spot",
+    src:"audio/Rádio Atalaia Spot.m4a"
+  },
+        {
+    title:"Mensagem: O Convite da Graça - Evangelista Diego Nascimento",
+    src:"audio/MRD - O Convite da Graça.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia.mpeg"
+  },
+          {
+    title:"Mensagem: O Livro da Vida - Evangelista Diego Nascimento",
+    src:"audio/MRD - O Livro da Vida.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia Abertura.m4a"
+  },
+
+            {
+    title:"Mensagem: O REINO DE DEUS - Evangelista Diego Nascimento",
+    src:"audio/MRD - O REINO DE DEUS.mp3"
   },
 
 
