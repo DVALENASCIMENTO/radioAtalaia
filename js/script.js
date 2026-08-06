@@ -344,6 +344,39 @@ const tracks = [
 
 
 
+      {
+    title:"Rádio Atalaia Spot",
+    src:"audio/Rádio Atalaia Spot.m4a"
+  },
+        {
+    title:"Mensagem: Temer a Deus - Evangelista Diego Nascimento",
+    src:"audio/MRD - Temer a Deus.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia.mpeg"
+  },
+          {
+    title:"Mensagem: VIDA EM ABUNDÂNCIA - Evangelista Diego Nascimento",
+    src:"audio/MRD - VIDA EM ABUNDÂNCIA.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia Abertura.m4a"
+  },
+
+            {
+    title:"Mensagem: ZAQUEU O PUBLICANO - Evangelista Diego Nascimento",
+    src:"audio/MRD - ZAQUEU O PUBLICANO.mp3"
+  },
+
+
+
+
+
+
 
 
 
