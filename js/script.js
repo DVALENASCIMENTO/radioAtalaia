@@ -375,6 +375,37 @@ const tracks = [
 
 
 
+      {
+    title:"Rádio Atalaia Spot",
+    src:"audio/Rádio Atalaia Spot.m4a"
+  },
+        {
+    title:"Mensagem: O Grande Amor de Deus - Evangelista Diego Nascimento",
+    src:"audio/O Grande Amor de Deus - 21min.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia.mpeg"
+  },
+          {
+    title:"Mensagem: O Propósito de Deus para a Humanidade - Evangelista Diego Nascimento",
+    src:"audio/O Propósito de Deus para a Humanidade.mp3"
+  },
+
+      {
+    title:"Rádio Atalaia",
+    src:"audio/Rádio Atalaia Abertura.m4a"
+  },
+
+            {
+    title:"Mensagem: O Rico e Lázaro - Evangelista Diego Nascimento",
+    src:"audio/O Rico e Lázaro.mp3"
+  },
+
+
+
+
 
 
 
