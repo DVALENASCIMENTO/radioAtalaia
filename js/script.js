@@ -429,10 +429,19 @@ const tracks = [
     src:"audio/Rádio Atalaia Abertura.m4a"
   },
 
+    {
+    title:"musica_Muitos São Chamados (Mateus 22_1–14).mp3",
+    src:"audio/musica_Vestes de Salvação (Mateus 22_12).mp3"
+  },
             {
     title:"Mensagem: Vestes de Salvação - Evangelista Diego Nascimento",
     src:"audio/MRD - Vestes de Salvação.mp3"
   },
+      {
+    title:"Música",
+    src:"audio/Música.mp3"
+  },
+
 
 
 
