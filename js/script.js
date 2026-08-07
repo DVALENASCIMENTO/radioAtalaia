@@ -26,9 +26,18 @@ const tracks = [
     title:"Rádio Atalaia",
     src:"audio/Rádio Atalaia Abertura.m4a"
   },
+    {
+    title:"A Purificação do Leproso",
+    src:"audio/musica_A Purificação do Leproso (Mateus 8_1–4).mp3"
+  },
+
       {
     title:"Mensagem: A Cura do Leproso - Evangelista Diego Nascimento",
     src:"audio/A Cura do Leproso - Diego Nascimento (youtube).mp3"
+  },
+      {
+    title:"Purifica-me, Senhor",
+    src:"audio/musica_Purifica-me, Senhor (Mateus 8_1–4).mp3"
   },
   {
     title:"I See the Lord (Live) - Ron Kenoly - Integrity Music",
@@ -424,11 +433,11 @@ const tracks = [
     src:"audio/Será Que Deus Me Ama - 08min.mp3"
   },
 
+
       {
     title:"Rádio Atalaia",
     src:"audio/Rádio Atalaia Abertura.m4a"
   },
-
     {
     title:"musica_Muitos São Chamados (Mateus 22_1–14).mp3",
     src:"audio/musica_Vestes de Salvação (Mateus 22_12).mp3"
