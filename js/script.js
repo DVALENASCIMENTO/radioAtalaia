@@ -22,6 +22,9 @@ const progress = document.getElementById("progress");
 // PLAYLIST
 const tracks = [
 
+
+  // BLOCO 1
+
   {
     title:"Rádio Atalaia",
     src:"audio/Rádio Atalaia Abertura.m4a"
@@ -39,26 +42,34 @@ const tracks = [
     title:"Purifica-me, Senhor",
     src:"audio/musica_Purifica-me, Senhor (Mateus 8_1–4).mp3"
   },
-  {
-    title:"I See the Lord (Live) - Ron Kenoly - Integrity Music",
-    src:"audio/Música - Ron Kenoly - I See the Lord (Live) - Integrity Music (youtube).mp3"
-  },
+
+
+    // BLOCO 2
+
   {
     title:"Rádio Atalaia Spot",
     src:"audio/Rádio Atalaia Spot.m4a"
   },
+    {
+    title:"Vinde a Mim",
+    src:"audio/musica_Vinde a Mim - Mateus 11_28–30.mp3"
+  },
+
       {
     title:"Mensagem: Vinde a Mim - Evangelista Diego Nascimento",
     src:"audio/Mensagem - “Vinde a Mim” — A Mensagem de Jesus Para Quem Está Cansado e Sobrecarregado  Mateus 1128–30 - Diego Nascimento (youtube).mp3"
   },
+    {
+    title:"Jesus, eu venho a Ti",
+    src:"audio/musica_Jesus, eu venho a Ti - Mateus 11_28–30 (1).mp3"
+  },
+
   {
     title:"Pão da Vida",
     src:"audio/Pão da Vida Rachel Mt 6 33.m4a"
   },
-  {
-    title:"Be Thou My Vision",
-    src:"audio/Música - BE THOU MY VISION -- My Favorite Irish Hymn! ) - NathanPachecoMusic (youtube).mp3"
-  },
+
+      // BLOCO 3
   {
     title:"Rádio Atalaia",
     src:"audio/Rádio Atalaia.mpeg"
