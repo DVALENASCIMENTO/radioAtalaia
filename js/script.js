@@ -78,23 +78,35 @@ const tracks = [
     title:"Deus é Amor",
     src:"audio/Sarah Deus é Amor.m4a"
   },
+    {
+    title:"SERVOS DA JUSTIÇA",
+    src:"audio/SERVOS DA JUSTIÇA - Romanos 6_15-18.mp3"
+  },
+
       {
     title:"Mensagem: A quem tendes servido? - Evangelista Diego Nascimento",
     src:"audio/Mensagem - A quem tendes servido - Diego Nascimento (youtube).mp3"
   },
   {
-    title:"Lamb Of God - Maranatha! Music",
-    src:"audio/Música - Lamb Of God - Maranatha! Music (youtube).mp3"
+    title:"LIBERTADOS DO PECADO",
+    src:"audio/LIBERTADOS DO PECADO  Romanos 6_15-18.mp3"
   },
   {
     title:"Rádio Atalaia",
     src:"audio/Rádio Atalaia Abertura.m4a"
   },
+    {
+    title:"SANTO, SANTO, SANTO",
+    src:"audio/SANTO, SANTO, SANTO Isaías 6_1-7.mp3"
+  },
   {
     title:"Mensagem: A Santidade de Deus - Evangelista Diego Nascimento",
     src:"audio/Mensagem - A Santidade de Deus - O Atalaia - Diego Nascimento (youtube).mp3"
   },
-
+      {
+    title:"SANTO, SANTO, SANTO É O SENHOR DOS EXÉRCITOS",
+    src:"audio/PRAISE SANTO, SANTO, SANTO Isaías 6_1-7.mp3"
+  },
   {
     title:"Rádio Atalaia Spot",
     src:"audio/Rádio Atalaia Spot.m4a"
