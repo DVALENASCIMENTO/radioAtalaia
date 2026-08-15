@@ -138,10 +138,20 @@ const tracks = [
     title:"Deus é Alegria",
     src:"audio/Deus é Alegria.ogg"
   },
+        {
+    title:"A Palavra Está Junto de Ti",
+    src:"audio/A Palavra Está Junto de Ti  Romanos 10_8-11.mp3"
+  },
+
       {
     title:"Mensagem: Crer e Confessar - Evangelista Diego Nascimento",
     src:"audio/Mensagem - Crer e Confessar - O Atalaia - Diego Nascimento (youtube).mp3"
   },
+          {
+    title:"EU CREIO E CONFESSO",
+    src:"audio/EU CREIO E CONFESSO Romanos 10_8-11.mp3"
+  },
+
     {
     title:"Rádio Atalaia",
     src:"audio/Rádio Atalaia Abertura.m4a"
